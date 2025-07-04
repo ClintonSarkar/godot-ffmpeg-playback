@@ -9,7 +9,8 @@ font_size = 96
 script/source = "extends Label
 
 func _process(delta: float) -> void:
-	text = \"FPS: %d, Frametime: %.2fms, Memory Usage: %.2fMB\" % [Engine.get_frames_per_second(), delta*1000.0, OS.get_static_memory_usage()/1048576.0]
+	text = \"FPS: %d, Frametime: %.2fms, \\nCurrent Memory Usage: %.2fMB, Peak Memory Usage: %.2fMB\" % \\
+ 		[Engine.get_frames_per_second(), delta*1000.0, OS.get_static_memory_usage()/1048576.0, OS.get_static_memory_peak_usage()/1048576.0]
 	return
 "
 
