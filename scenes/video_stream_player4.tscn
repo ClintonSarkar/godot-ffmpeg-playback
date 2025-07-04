@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxachdgagigol"]
+
+[sub_resource type="FFmpegVideoStream" id="FFmpegVideoStream_dabyl"]
+file = "res://test/clapclapconnect.mov"
+
+[node name="video_stream_player" type="VideoStreamPlayer"]
+offset_right = 3840.0
+offset_bottom = 2160.0
+stream = SubResource("FFmpegVideoStream_dabyl")
+expand = true
