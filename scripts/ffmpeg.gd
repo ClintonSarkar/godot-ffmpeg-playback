@@ -30,7 +30,7 @@ func _physics_process(delta: float) -> void:
 					path = vid1
 			ffmpeg.file = path
 			play()
-#
+
 	if Input.is_action_just_pressed("Stop"):
 		manual_loop = false
 
