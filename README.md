@@ -7,6 +7,7 @@
 ### Set up ###
 
 * Clone the repository to your local machine.
+* Git-lfs pull for the videos.
 * Open project with Godot 4.3.
 * Run the project, or /scens/test.tscn
 * Press T to play, R to reload same file, S to switch between two files
