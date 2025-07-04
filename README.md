@@ -10,5 +10,6 @@
 * Git-lfs pull for the videos.
 * Open project with Godot 4.3.
 * Run the project, or /scens/test.tscn
-* Press T to play, R to reload same file, S to switch between two files
+* Press T to play the two videos in loop.
+* Press S to stop the loop and let one video complete playing.
 * Change vid1 and vid2 strings to use different videos
